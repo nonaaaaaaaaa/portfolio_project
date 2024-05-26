@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Clinic Portfolio</title>
+  
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../static/css/petclinic.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+   <link rel="stylesheet" href="fontawesome/all.min.css">
+  <link rel="stylesheet" href="../static/js/all.min.js">
+  <link rel="stylesheet" href="../static/js/bootstrap.bundle.js">
+  <style>
+    /* Animation keyframes */
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    /* Apply animation to the heading */
+    .welcome-heading {
+      animation: slideIn 1.5s ease forwards;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light   ">
+    <div class="container  ">
+      <a class="navbar-brand fs-5 bg-danger rounded-5 p-2 " href="#">Pets Clinic</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto py-2 fs-4">
+          <li class="nav-item ">
+            <a class="nav-link active " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="jumbotron jumbotron-fluid text-center bg-warning">
+    <div class="container">
+      <h1 class="display-4 fw-bold welcome-heading">Welcome to Pets Clinic care</h1>
+      <!-- <p class="lead fw-bold fs-3">Dr/Mohamed Shaker</p> -->
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container bg-light my-5"   id="about">
+    <div class="row  ">
+      <div class="col-lg-6">
+        <h2 class="py-3" >About Us</h2>
+        <p class="text-black-50">Welcome to Pet Clinic, your trusted partner in pet care. We understand that your pets are more than just
+          animals; they're family. That's why we strive to provide the highest quality care and compassionate service to
+          ensure the health and happiness of your furry companions.</p>
+        <p class="text-black-50" >At Pet Clinic, our team of experienced veterinarians and staff are dedicated to providing comprehensive
+          veterinary services tailored to meet the unique needs of each pet. From routine vaccinations and health
+          check-ups to advanced surgical procedures, we're here to support you and your pet every step of the way.</p>
+      </div>
+      <div class="col-lg-6 pic">
+        <img src="../img/O.jpg " alt="About Us" class=" w-auto ms-5">
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div class="container bg-danger  " id="services" >
+    <h2 class="text-center py-3 bg-light">Our Services</h2>
+
+    <div class="row bg-warning">
+      <div class="col-lg-4">
+        <h4>Vaccinations</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-lg-4">
+        <h4>Health Check-ups</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-lg-4">
+        <h4>Surgery</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container py-5 "  id="Contact" >
+    <h2 class="text-center">Contact Us</h2>
+    <p class="text-center">Have questions or need assistance? Contact us!</p>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call Out in a Section, with a Photo! -->
+  <section class="about-me">
+    <img src="../img/WhatsApp Image 2023-12-02 at 8.15.14 PM.jpeg" alt="nehal_elwi">
+    <h2>About the Developer</h2>
+    <p>Hi, I'm [Nehal Elwi], the creator of this app. Feel free to check out more of my work or get in touch with me!
+    </p>
+    <p>
+      <a href="https://github.com/nonaaaaaaaaa/portfolio_project" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/nehal-elwi-7b6748202/" target="_blank">LinkedIn</a> 
+      
+    </p>
+  </section>
+
+  <!-- Subtle Footer Mention----------------------------- -->
+  <footer>
