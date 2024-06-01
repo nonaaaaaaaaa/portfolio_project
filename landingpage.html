@@ -1,48 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing_page</title>
+    <title>Pets Clinic</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/petclinic.css">
 </head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Portfolio Project</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>My Portfolio Project</h1>
-        <p>A brief description of what the project does.</p>
-    </header>
-    <main>
-        <section id="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-            </ul>
-        </section>
-        <section id="demo">
-            <h2>Demo</h2>
-            <img src="screenshot.png" alt="Project Screenshot">
-            <video src="demo.mp4" controls></video>
-        </section>
-        <section id="links">
-            <h2>Links</h2>
-            <a href="https://liveprojectlink.com">Live Project</a>
-            <a href="https://github.com/username/project">GitHub Repository</a>
-        </section>
-    </main>
-    <footer>
-        <p>Contact: your.email@example.com</p>
-    </footer>
-</body>
-</html>
 
+<body class="dog">
+    <!-- Header and Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-md-top ">
+        <div class="container">
+
+            <a class="navbar-brand  bg-white rounded-1 fs-4" href="file:///C:/Users/LEGEND/Desktop/portfolio_project/petclinic.html"    target="_blank"  >Pets Clinic</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <img src="img/O.jpg" alt="Your Logo" class="img-fluid d-none"> <!-- Add your logo here -->
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading py-5">Welcome to Pets Clinic</h1>
+            <p class="lead text-muted">Where your pet's health and happiness are our top priority.</p>
+            <p><a href="file:///C:/Users/LEGEND/Desktop/portfolio_project/petclinic.html" class="btn btn-primary my-2">Visit Our Clinic</a></p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                
+                <h2>About Us</h2>
+                <p>Welcome to Pets Clinic, where we treat your pets like family. Our mission is to provide exceptional
+                    veterinary care that focuses on the well-being and health of your furry companions.</p>
+                <p>At Pets Clinic, we believe in the importance of preventive care and strive to educate pet owners
+                    about the best practices for maintaining their pet's health and happiness.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/OIP.jpg" alt="About Us" class="img-fluid rounded-3 w-75 h-100 ms-5 ">
+            </div>
+
+            <div class="col-md-4">
+                
+                <h2>Our Services</h2>
+                <p><b>Vaccinations:</b>
+                We offer a comprehensive range of vaccinations to protect your pets from common diseases.</p>
+                <p><b>Health Check-ups:</b>
+                    Regular health check-ups are essential for maintaining your pet's well-being.</p>
+                <p><b>Surgery:</b>
+                    Our clinic is equipped with state-of-the-art surgical facilities, allowing us to perform a variety of procedures</p>
+            </div>
+            
+
+        </div>
+    </section>
+
+
+        
+
+    <!-- About the Developer Section -->
+    <section class="about-me  py-2 h-25">
+        <div class="container text-center">
+            <img src="img/WhatsApp Image 2023-12-02 at 8.15.14 PM.jpeg" alt="Your Name" class="img-fluid rounded-circle mb-3" style="width: 50px;">
+            <h2>About the Developer</h2>
+            <p>Hi, I'm Nehal Elwi, the creator of this app. Feel free to check out more of my work or get in touch with
+                me!</p>
+            <p>
+                <a href="https://github.com/nonaaaaaaaaa/portfolio_project" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/nehal-elwi-7b6748202/" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Pets Clinic. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
