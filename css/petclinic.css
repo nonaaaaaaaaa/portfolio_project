@@ -1,4 +1,23 @@
-/* <!-- Call Out in a Section, with a Photo! --> */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    25% {
+        transform: translateX(25%);
+    }
+    75% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.welcome-heading {
+    animation: slideIn 4s infinite;
+}
+
 .about-me {
     background-color: rgb(245, 244, 241);
     text-align: center;
@@ -65,6 +84,7 @@ footer a {
     }
 }
 
+/* /////////////////////////////////////////////////////////////////////////////// */
 /* <!-- landing page ----------------------------- --> */
 
 
@@ -72,14 +92,14 @@ footer a {
 :root {
     --bs-body-color: rgb(60, 60, 242);
     --bs-heading-color: rgb(60, 60, 242);
-    --bs-secondary-color:rgb(60, 60, 242);
+    --bs-secondary-color: rgb(60, 60, 242);
     /* --primary-color: #007bff;
     --secondary-color: #6c757d;
     --dark-color: #343a40;
     --light-color: #f8f9fa; */
 }
 
-body  .dog{
+body .dog {
     background: #d7e4f9;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -103,5 +123,5 @@ body  .dog{
 .landing-page h1 {
     font-size: 3em;
     margin-bottom: 20px;
-   color: var(--bs-heading-color);
+    color: var(--bs-heading-color);
 }
